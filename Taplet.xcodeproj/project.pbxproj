@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		FB0D0B2D1A8593DC00D24108 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0D0B2C1A8593DC00D24108 /* main.m */; };
 		FB0D0B301A8593DC00D24108 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0D0B2F1A8593DC00D24108 /* AppDelegate.m */; };
-		FB0D0B331A8593DC00D24108 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0D0B321A8593DC00D24108 /* ViewController.m */; };
+		FB0D0B331A8593DC00D24108 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0D0B321A8593DC00D24108 /* RootViewController.m */; };
 		FB0D0B361A8593DC00D24108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB0D0B341A8593DC00D24108 /* Main.storyboard */; };
 		FB0D0B381A8593DC00D24108 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0D0B371A8593DC00D24108 /* Images.xcassets */; };
 		FB0D0B3B1A8593DC00D24108 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0D0B391A8593DC00D24108 /* LaunchScreen.xib */; };
 		FB0D0B471A8593DC00D24108 /* TapletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0D0B461A8593DC00D24108 /* TapletTests.m */; };
+		FB5F0E9C1A8707B2000B0898 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5F0E9B1A8707B2000B0898 /* MediaPlayer.framework */; };
+		FB7B71711A85A6C4002EAFAF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7B71701A85A6C4002EAFAF /* MobileCoreServices.framework */; };
+		FB7B71741A85B0D0002EAFAF /* ImageExtractionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7B71731A85B0D0002EAFAF /* ImageExtractionViewController.m */; };
+		FB9ECB8D1A88528D00A4D66D /* ImageDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB9ECB8C1A88528D00A4D66D /* ImageDisplayViewController.m */; };
+		FBCF16E41A88779A00287D4E /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCF16E31A88779A00287D4E /* ImageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,22 @@
 		FB0D0B2C1A8593DC00D24108 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB0D0B2E1A8593DC00D24108 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB0D0B2F1A8593DC00D24108 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB0D0B311A8593DC00D24108 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB0D0B321A8593DC00D24108 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB0D0B311A8593DC00D24108 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB0D0B321A8593DC00D24108 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB0D0B351A8593DC00D24108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB0D0B371A8593DC00D24108 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB0D0B3A1A8593DC00D24108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB0D0B401A8593DC00D24108 /* TapletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0D0B451A8593DC00D24108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB0D0B461A8593DC00D24108 /* TapletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapletTests.m; sourceTree = "<group>"; };
+		FB5F0E9B1A8707B2000B0898 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FB7B71701A85A6C4002EAFAF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FB7B71721A85B0D0002EAFAF /* ImageExtractionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageExtractionViewController.h; sourceTree = "<group>"; };
+		FB7B71731A85B0D0002EAFAF /* ImageExtractionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageExtractionViewController.m; sourceTree = "<group>"; };
+		FB9ECB8B1A88528D00A4D66D /* ImageDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDisplayViewController.h; sourceTree = "<group>"; };
+		FB9ECB8C1A88528D00A4D66D /* ImageDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDisplayViewController.m; sourceTree = "<group>"; };
+		FBCF16E21A88779A00287D4E /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		FBCF16E31A88779A00287D4E /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5F0E9C1A8707B2000B0898 /* MediaPlayer.framework in Frameworks */,
+				FB7B71711A85A6C4002EAFAF /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		FB0D0B1E1A8593DB00D24108 = {
 			isa = PBXGroup;
 			children = (
+				FB0D0B341A8593DC00D24108 /* Main.storyboard */,
 				FB0D0B291A8593DC00D24108 /* Taplet */,
 				FB0D0B431A8593DC00D24108 /* TapletTests */,
 				FB0D0B281A8593DC00D24108 /* Products */,
@@ -81,14 +97,18 @@
 		FB0D0B291A8593DC00D24108 /* Taplet */ = {
 			isa = PBXGroup;
 			children = (
-				FB0D0B2E1A8593DC00D24108 /* AppDelegate.h */,
-				FB0D0B2F1A8593DC00D24108 /* AppDelegate.m */,
-				FB0D0B311A8593DC00D24108 /* ViewController.h */,
-				FB0D0B321A8593DC00D24108 /* ViewController.m */,
-				FB0D0B341A8593DC00D24108 /* Main.storyboard */,
+				FB0D0B311A8593DC00D24108 /* RootViewController.h */,
+				FB0D0B321A8593DC00D24108 /* RootViewController.m */,
+				FB7B71721A85B0D0002EAFAF /* ImageExtractionViewController.h */,
+				FB7B71731A85B0D0002EAFAF /* ImageExtractionViewController.m */,
+				FB9ECB8B1A88528D00A4D66D /* ImageDisplayViewController.h */,
+				FB9ECB8C1A88528D00A4D66D /* ImageDisplayViewController.m */,
+				FBCF16E21A88779A00287D4E /* ImageCollectionViewCell.h */,
+				FBCF16E31A88779A00287D4E /* ImageCollectionViewCell.m */,
 				FB0D0B371A8593DC00D24108 /* Images.xcassets */,
 				FB0D0B391A8593DC00D24108 /* LaunchScreen.xib */,
 				FB0D0B2A1A8593DC00D24108 /* Supporting Files */,
+				FB52C4461A8BCD4A00107E2B /* Frameworks */,
 			);
 			path = Taplet;
 			sourceTree = "<group>";
@@ -96,6 +116,8 @@
 		FB0D0B2A1A8593DC00D24108 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB0D0B2E1A8593DC00D24108 /* AppDelegate.h */,
+				FB0D0B2F1A8593DC00D24108 /* AppDelegate.m */,
 				FB0D0B2B1A8593DC00D24108 /* Info.plist */,
 				FB0D0B2C1A8593DC00D24108 /* main.m */,
 			);
@@ -117,6 +139,16 @@
 				FB0D0B451A8593DC00D24108 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB52C4461A8BCD4A00107E2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB5F0E9B1A8707B2000B0898 /* MediaPlayer.framework */,
+				FB7B71701A85A6C4002EAFAF /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +200,7 @@
 				TargetAttributes = {
 					FB0D0B261A8593DC00D24108 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = NBT9DPT8GS;
 					};
 					FB0D0B3F1A8593DC00D24108 = {
 						CreatedOnToolsVersion = 6.2;
@@ -219,8 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB0D0B331A8593DC00D24108 /* ViewController.m in Sources */,
+				FB9ECB8D1A88528D00A4D66D /* ImageDisplayViewController.m in Sources */,
+				FB0D0B331A8593DC00D24108 /* RootViewController.m in Sources */,
+				FB7B71741A85B0D0002EAFAF /* ImageExtractionViewController.m in Sources */,
 				FB0D0B301A8593DC00D24108 /* AppDelegate.m in Sources */,
+				FBCF16E41A88779A00287D4E /* ImageCollectionViewCell.m in Sources */,
 				FB0D0B2D1A8593DC00D24108 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +286,7 @@
 				FB0D0B351A8593DC00D24108 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Taplet;
 			sourceTree = "<group>";
 		};
 		FB0D0B391A8593DC00D24108 /* LaunchScreen.xib */ = {
@@ -343,7 +380,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Taplet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +392,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Taplet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +453,7 @@
 				FB0D0B4C1A8593DC00D24108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB0D0B4D1A8593DC00D24108 /* Build configuration list for PBXNativeTarget "TapletTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +462,7 @@
 				FB0D0B4F1A8593DC00D24108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
